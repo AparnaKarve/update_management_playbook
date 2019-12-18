@@ -1,0 +1,8 @@
+---
+- name: use galaxy update_management role
+  hosts: all 
+  user: ansible
+  become: true
+
+  roles:
+    - role: sbaerlocher.update_management
